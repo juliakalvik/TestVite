@@ -45,7 +45,7 @@ h1 {
 }
 
 .logo {
-  height: 6em;
+  height: em;
   padding: 1.5em;
   will-change: filter;
 }
@@ -71,12 +71,12 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
+  background-color: #e9e661;
   cursor: pointer;
   transition: border-color 0.25s;
 }
 button:hover {
-  border-color: #646cff;
+  border-color: #030306;
 }
 button:focus,
 button:focus-visible {
@@ -85,13 +85,13 @@ button:focus-visible {
 
 @media (prefers-color-scheme: light) {
   :root {
-    color: #20ba32;
-    background-color: #9d14c7;
+    color: #083707;
+    background-color: #7a3090;
   }
   a:hover {
-    color: #747bff;
+    color: #ffffff;
   }
   button {
-    background-color: #e01212;
+    background-color: #5b2626;
   }
 }
